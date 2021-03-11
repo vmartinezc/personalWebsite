@@ -1,13 +1,22 @@
 /* Stylesheet for landing page & global styles
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+ html, body {
+    font-family: 'Poppins', sans-serif;
+ }
+
 .bkg {
     height: 100%;
     width: 100%;
     margin: 0;
     background-size: cover;
     text-align: center;
+    background: rgb(255,185,151);
+    background: linear-gradient(90deg, rgba(255,185,151,1) 0%, rgba(246,126,125,1) 35%, rgba(132,59,98,0.9738270308123249) 100%);
 }
+
 
 /* Creating fixed background container
 to get rid of the white space around bkg */
@@ -16,10 +25,10 @@ to get rid of the white space around bkg */
     position: fixed; 
     top: -50%; 
     left: -50%; 
-    /* width: 150%; 
-    height: 150%; */
-     width: 200%; 
+    width: 200%; 
     height: 200%;
+    background: rgb(255,185,151);
+    background: linear-gradient(90deg, rgba(255,185,151,1) 0%, rgba(246,126,125,1) 35%, rgba(132,59,98,0.9738270308123249) 100%);
 
 }
 
@@ -30,15 +39,20 @@ to get rid of the white space around bkg */
     left: 50%;
     text-align: center;
     background-color: transparent;
-    /* border: 3px solid white; */
-    color: white;
-    font-family: 'Brygada 1918', serif;
-    font-family: 'Caveat', cursive;
+    color: #0B032D;
+    font-family: 'Poppins', sans-serif;
     padding: 4px;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 100px;
     width: 25%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
 }
+
+.img{
+    position: absolute;
+    height: 50px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
