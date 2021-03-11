@@ -10,6 +10,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+//import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -18,7 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutMeComponent,
     ResumeComponent,
     PortfolioComponent,
-    MenuBarComponent
+    MenuBarComponent,
   ],
   imports: [
     BrowserModule,

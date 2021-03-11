@@ -1,0 +1,8 @@
+.toolbar {
+    background-color: transparent;
+}
+
+.links-container {
+    display: table;
+    width: 100%;
+}

@@ -5,6 +5,7 @@
 
  html, body {
     font-family: 'Poppins', sans-serif;
+    height: 100%;
  }
 
 .bkg {
@@ -16,7 +17,6 @@
     background: rgb(255,185,151);
     background: linear-gradient(90deg, rgba(255,185,151,1) 0%, rgba(246,126,125,1) 35%, rgba(132,59,98,0.9738270308123249) 100%);
 }
-
 
 /* Creating fixed background container
 to get rid of the white space around bkg */
@@ -49,10 +49,4 @@ to get rid of the white space around bkg */
     transform: translate(-50%, -50%);
 }
 
-.img{
-    position: absolute;
-    height: 50px;
-}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
